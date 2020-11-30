@@ -1,13 +1,16 @@
 import React, { Component } from "react";
 
 
+
 import Home from "../Components/Home"
 import About from "../Components/About"
 import SocaliMedia from "../Components/SocaliMedia"
 import Work from "../Components/Work"
 import Portfolio from "../Components/Portfolio"
-import Profil from "../Components/Profile"
+import Profile from "../Components/Profile"
 import Footer from "../Components/Footer"
+
+
 
 
 class Index extends Component {
@@ -17,7 +20,7 @@ class Index extends Component {
                 <Home />
                 <About />
                 <Portfolio />
-                <Profil />
+                <Profile />
                 <SocaliMedia />
                 <Work />
                 <Footer />
