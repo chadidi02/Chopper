@@ -1,8 +1,8 @@
-import styled  from 'styled-components';
+import styled from 'styled-components';
 
 export const HomeSection = styled.div`
     height: 500px;
-    background-image: url('images/home-bg.jpg');
+    background-image: url('images/home.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -19,19 +19,19 @@ export const HomeInformation = styled.div`
 export const HomeTitle = styled.h2`
     font-size: 60px;
     font-weight: bold;
-    color: #5e5e5e;
+    color: #c792ea;
 `
 
 export const HomeInfo = styled.h4`
     font-size: 35px;
-    color: #eb5424;
+    color: #f78c6c;
     margin-bottom: 20px;
 `
 
 export const HomeDesc = styled.p`
     font-size: 20px;
     line-height: 1.5;
-    color: #888;
+    color: #abb2bf;
     margin-bottom: 20px
 `
 

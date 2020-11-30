@@ -6,7 +6,7 @@ import About from "../Components/About"
 import SocaliMedia from "../Components/SocaliMedia"
 import Work from "../Components/Work"
 import Portfolio from "../Components/Portfolio"
-import Profil from "../Components/Profil"
+import Profil from "../Components/Profile"
 import Footer from "../Components/Footer"
 
 
@@ -15,11 +15,11 @@ class Index extends Component {
         return (
             <div>
                 <Home />
-                <Work />
+                <About />
                 <Portfolio />
                 <Profil />
-                <About />
                 <SocaliMedia />
+                <Work />
                 <Footer />
             </div>
         );
